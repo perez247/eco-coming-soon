@@ -3,14 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CommingSoonComponent } from './components/comming-soon/comming-soon.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CommingSoonComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
